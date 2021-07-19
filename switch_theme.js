@@ -3,7 +3,7 @@ if(dark_mode_status=="Dark_mode=true"){
     plik_css="dark.css";
     dark_mode_status=true;
 }else{
-    plik_css="white.css";
+    plik_css="light.css";
     dark_mode_status=false;
 } 
 document.write('<link rel="stylesheet" href="'+plik_css+'" type="text/css">');
